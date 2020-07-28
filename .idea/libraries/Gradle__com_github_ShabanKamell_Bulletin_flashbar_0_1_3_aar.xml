@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ShabanKamell.Bulletin:flashbar:0.1.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4dd6ed315cece509dd1bb3ed75c9192d/jetified-flashbar-0.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4dd6ed315cece509dd1bb3ed75c9192d/jetified-flashbar-0.1.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ShabanKamell.Bulletin/flashbar/0.1.3/da5acc8297ac46aef353d23758bbae71b2974ea5/flashbar-0.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFrag"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/splashFrag"
+        android:name="com.movies.app.ui.splash.SplashFrag"
+        android:label="SplashFrag">
+        <action
+            android:id="@+id/action_splashFrag_to_homeFrag"
+            app:destination="@id/homeFrag" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFrag"
+        android:name="com.movies.app.ui.home.HomeFrag"
+        android:label="HomeFrag" />
+</navigation>

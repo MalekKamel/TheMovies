@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.kotlintest:kotlintest-runner-jvm:3.4.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.4.0/764b9fcc37c39725189be019298e5aef4f127b7a/kotlintest-runner-jvm-3.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.4.0/fe9fd493ebc1349dd3f46b6998398d4a2966a2a1/kotlintest-runner-jvm-3.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.4.0/46b712191301fa87c7458269690dbf3a4a797bd7/kotlintest-runner-jvm-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.arrow-kt:arrow-core-extensions:0.9.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core-extensions/0.9.0/65d17b5579460a0322adc4701434564fc5702271/arrow-core-extensions-0.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core-extensions/0.9.0/948cc50e742ad999173b4f687ddb0b377488b3b5/arrow-core-extensions-0.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core-extensions/0.9.0/561d7c3c3c840333ac8d57d8cdc46870a78e163d/arrow-core-extensions-0.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

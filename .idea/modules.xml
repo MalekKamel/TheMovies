@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TheMovies.iml" filepath="$PROJECT_DIR$/.idea/TheMovies.iml" group="TheMovies" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TheMovies_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/TheMovies_buildSrc.iml" group="TheMovies/TheMovies_buildSrc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="TheMovies/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="TheMovies/common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/common/core/core.iml" group="TheMovies/common/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/data/data.iml" filepath="$PROJECT_DIR$/.idea/modules/common/data/data.iml" group="TheMovies/common/data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/presentation/presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/common/presentation/presentation.iml" group="TheMovies/common/presentation" />
+    </modules>
+  </component>
+</project>

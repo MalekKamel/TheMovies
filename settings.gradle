@@ -1,0 +1,5 @@
+include ':app'
+include ':common:core'
+include ':common:data'
+include ':common:presentation'
+

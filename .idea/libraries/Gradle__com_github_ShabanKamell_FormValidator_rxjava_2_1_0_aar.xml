@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ShabanKamell.FormValidator:rxjava:2.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/897373c2a9fe31c82daff2a806fe461d/jetified-rxjava-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/897373c2a9fe31c82daff2a806fe461d/jetified-rxjava-2.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ShabanKamell.FormValidator/rxjava/2.1.0/dfd0c9d382fc2c4cadf973cfe0c056c5b9a9b26d/rxjava-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
