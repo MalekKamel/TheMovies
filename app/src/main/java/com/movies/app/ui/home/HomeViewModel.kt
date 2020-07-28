@@ -17,16 +17,4 @@ val homeModule = module {
     viewModel { HomeViewModel(get()) }
 }
 
-class HomeViewModel(dataManager: DataManager) : BaseViewModel(dataManager) {
-
-    val onLoadMovies: MutableLiveData<MoviesResponse> = MutableLiveData()
-
-    fun discoverMovies() {
-        request {
-            val request = MoviesRequest()
-           val response = dm.moviesRepo.discoverMovies(request)
-            onLoadMovies.value = response
-        }
-
-    }
-}
+class HomeViewModel(dataManager: DataManager) : BaseViewModel(dataManager)

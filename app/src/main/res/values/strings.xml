@@ -1,5 +1,7 @@
 <resources>
 
     <string name="app_name">The Movies</string>
+    <string name="search">Search</string>
+    <string name="discover">Discover</string>
 
 </resources>

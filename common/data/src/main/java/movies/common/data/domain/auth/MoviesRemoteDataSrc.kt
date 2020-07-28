@@ -6,11 +6,11 @@ import movies.common.data.model.MoviesResponse
 class MoviesRemoteDataSrc(private val api: MoviesApi) {
 
     suspend fun discoverMovies(request: MoviesRequest): MoviesResponse {
-        return api.discoverMovies(  query = request.search, page = request.nextPage)
+        return api.discoverMovies(page = request.nextPage)
     }
 
     suspend fun searchMovies(request: MoviesRequest): MoviesResponse {
-        return api.searchMovies(request)
+        return api.searchMovies(query = request.search, page = request.nextPage)
     }
 
 }
