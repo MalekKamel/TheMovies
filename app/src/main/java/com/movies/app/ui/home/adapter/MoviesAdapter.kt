@@ -34,15 +34,10 @@ class MoviesAdapter(baseView: ViewInterface) : BasePagedListAdapter<Movie>(
     inner class Vh internal constructor(viewGroup: ViewGroup)
         : BaseViewHolder<Movie>(viewGroup, R.layout.item_movie) {
 
-        init {
-            itemView.setOnClickListener {
-
-            }
-        }
-
         override fun bindView(item: Movie) {
             itemView.tvTitle.text = item.title
-//            itemView.tvRate.text = item.voteAverage.toString()
+            itemView.tvReleaseDate.text = item.releaseDate
+            itemView.tvOverview.text = item.overview
             PicassoUtil.load(
                     iv =itemView.ivPoster,
                     url = item.poster()

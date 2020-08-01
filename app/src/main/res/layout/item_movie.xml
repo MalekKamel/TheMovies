@@ -34,18 +34,29 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="10dp"
-                android:textColor="@color/gray"
+                android:textColor="@color/cloudy"
                 android:textSize="@dimen/_15ssp" />
 
             <TextView
                 tools:text="RATING"
-                android:id="@+id/tvRate"
+                android:id="@+id/tvReleaseDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:textColor="@color/cloudy"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                tools:text="RATING"
+                android:id="@+id/tvOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/gray"
                 android:textSize="@dimen/_12ssp" />
 
         </LinearLayout>
