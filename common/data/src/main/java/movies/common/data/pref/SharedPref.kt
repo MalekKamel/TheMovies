@@ -10,48 +10,48 @@ class SharedPref(private val pref: SharedPreferences) {
 
     private var editor: SharedPreferences.Editor = pref.edit()
 
-    private fun putString(value: String?, key: Key){
+    private fun putString(value: String?, key: Key) {
         editor.putString(key.name, value)
         editor.apply()
     }
 
-    private fun putInt(value: Int, key: Key){
+    private fun putInt(value: Int, key: Key) {
         editor.putInt(key.name, value)
         editor.apply()
     }
 
-    private fun putLong(value: Long, key: Key){
+    private fun putLong(value: Long, key: Key) {
         editor.putLong(key.name, value)
         editor.apply()
     }
 
-    private fun putFloat(value: Float, key: Key){
+    private fun putFloat(value: Float, key: Key) {
         editor.putFloat(key.name, value)
         editor.apply()
     }
 
-    private fun putBoolean(value: Boolean, key: Key){
+    private fun putBoolean(value: Boolean, key: Key) {
         editor.putBoolean(key.name, value)
         editor.apply()
     }
 
-    private fun getString(key: Key, def: String): String{
+    private fun getString(key: Key, def: String): String? {
         return pref.getString(key.name, def)
     }
 
-    private fun getInt(key: Key, def: Int): Int{
+    private fun getInt(key: Key, def: Int): Int {
         return pref.getInt(key.name, def)
     }
 
-    private fun getLong(key: Key, def: Long): Long{
+    private fun getLong(key: Key, def: Long): Long {
         return pref.getLong(key.name, def)
     }
 
-    private fun getFloat(key: Key, def: Float): Float{
+    private fun getFloat(key: Key, def: Float): Float {
         return pref.getFloat(key.name, def)
     }
 
-    private fun getBoolean(key: Key, def: Boolean): Boolean{
+    private fun getBoolean(key: Key, def: Boolean): Boolean {
         return pref.getBoolean(key.name, def)
     }
 
@@ -62,26 +62,24 @@ class SharedPref(private val pref: SharedPreferences) {
 
     ///// Impl
 
-    private enum class Key{
+    private enum class Key {
         TOKEN,
         REFRESH_TOKEN
     }
 
-    var token: String
+    var token: String?
         get() = getString(Key.TOKEN, "")
         set(value) {
             putString(value, Key.TOKEN)
         }
 
-    var refreshToken: String
+    var refreshToken: String?
         get() = getString(Key.REFRESH_TOKEN, "")
         set(value) {
             putString(value, Key.REFRESH_TOKEN)
         }
 
-    fun isLogged(): Boolean = token.isNotEmpty()
-
-
+    fun isLogged(): Boolean = token?.isNotEmpty() == true
 
 
 }

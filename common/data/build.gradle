@@ -27,4 +27,10 @@ dependencies {
 
     api Deps.sha_modelMapper
 
+    api Deps.room_runtime
+    kapt Deps.room_compiler
+    api Deps.room_rxJava
+    api Deps.room_ktx
+
+    api Deps.androidx_preference
 }

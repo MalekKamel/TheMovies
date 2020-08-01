@@ -1,4 +1,4 @@
-package movies.common.data.domain.auth
+package movies.common.data.domain.movies
 
 import movies.common.data.model.MoviesRequest
 import movies.common.data.model.MoviesResponse

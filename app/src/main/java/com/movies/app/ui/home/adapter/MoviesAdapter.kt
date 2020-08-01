@@ -42,7 +42,7 @@ class MoviesAdapter(baseView: ViewInterface) : BasePagedListAdapter<Movie>(
 
         override fun bindView(item: Movie) {
             itemView.tvTitle.text = item.title
-            itemView.tvRate.text = item.voteAverage.toString()
+//            itemView.tvRate.text = item.voteAverage.toString()
             PicassoUtil.load(
                     iv =itemView.ivPoster,
                     url = item.poster()

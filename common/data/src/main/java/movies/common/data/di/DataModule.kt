@@ -1,11 +1,14 @@
 package movies.common.data.di
 
-import android.preference.PreferenceManager
+import androidx.preference.PreferenceManager
+import androidx.room.Room
 import movies.common.data.BuildConfig
 import movies.common.data.DataManager
-import movies.common.data.domain.auth.MoviesApi
-import movies.common.data.domain.auth.MoviesRemoteDataSrc
-import movies.common.data.domain.auth.MoviesRepo
+import movies.common.data.db.MovieDatabase
+import movies.common.data.domain.movies.MoviesApi
+import movies.common.data.domain.movies.MoviesLocalDataSrc
+import movies.common.data.domain.movies.MoviesRemoteDataSrc
+import movies.common.data.domain.movies.MoviesRepo
 import movies.common.data.network.interceptor.TokenInterceptor
 import movies.common.data.pref.SharedPref
 import movies.common.data.rx.SchedulerProvider
@@ -25,7 +28,8 @@ private val loadModule by lazy {
                     dataManagerModule,
                     prefModule,
                     okHttpModule,
-                    moviesModule
+                    moviesModule,
+                    roomModule
             )
     )
 }
@@ -64,6 +68,13 @@ val moviesModule = module {
     single {
         RetrofitHelper.createService(BuildConfig.API_BASE_URL, get(), MoviesApi::class.java)
     }
+    factory { MoviesLocalDataSrc(get()) }
     factory { MoviesRemoteDataSrc(get()) }
-    factory { MoviesRepo(get()) }
+    factory { MoviesRepo(get(), get()) }
+}
+
+val roomModule = module {
+    single {
+        Room.databaseBuilder(androidContext(), MovieDatabase::class.java, "MovieDatabase").build()
+    }
 }

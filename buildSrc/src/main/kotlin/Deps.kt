@@ -33,6 +33,9 @@ object Versions {
     const val sha_coroutineRequester = "0.3.0"
     const val androidx_ViewModelExt = "2.2.0"
 
+    const val room = "2.2.3"
+    const val androidx_preference = "1.1.1"
+
 }
 
 object Deps {
@@ -61,6 +64,7 @@ object Deps {
     const val androidx_paging = "androidx.paging:paging-runtime:${Versions.androidx_paging}"
     const val androidx_swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.androidx_swiperefreshlayout}"
     const val androidx_ViewModelExt = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.androidx_ViewModelExt}"
+    const val androidx_preference = "androidx.preference:preference:${Versions.androidx_preference}"
 
     // retrofit
     const val retrofit_runtime = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
@@ -91,6 +95,10 @@ object Deps {
     const val sha_bulletin = "com.github.ShabanKamell:Bulletin:${Versions.sha_bulletin}"
     const val sha_coroutineRequester = "com.github.ShabanKamell:CoroutineRequester:${Versions.sha_coroutineRequester}"
 
+    const val room_runtime = "androidx.room:room-runtime:${Versions.room}"
+    const val room_compiler = "androidx.room:room-compiler:${Versions.room}"
+    const val room_rxJava = "androidx.room:room-rxjava2:${Versions.room}"
+    const val room_ktx = "androidx.room:room-ktx:${Versions.room}"
 }
 
 object TestVersions {

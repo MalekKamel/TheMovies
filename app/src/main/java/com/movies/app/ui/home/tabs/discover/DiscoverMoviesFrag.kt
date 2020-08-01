@@ -21,7 +21,7 @@ class DiscoverMoviesFrag : BaseFrag<DiscoverMoviesViewModel>() {
     override fun onResume() {
         super.onResume()
         setupUi()
-        loadMovies(MoviesRequest(type = MoviesRequest.Type.POPULAR))
+        loadMovies(MoviesRequest())
     }
 
     private fun setupUi() {

@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ShabanKamell:Navigator:1.7.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f03161f0df9308dfa40ad0aa8d9d08b/jetified-Navigator-1.7.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3f03161f0df9308dfa40ad0aa8d9d08b/jetified-Navigator-1.7.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24797298e2ea772a9052e9953e4fab53/jetified-Navigator-1.7.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24797298e2ea772a9052e9953e4fab53/jetified-Navigator-1.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24797298e2ea772a9052e9953e4fab53/jetified-Navigator-1.7.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
