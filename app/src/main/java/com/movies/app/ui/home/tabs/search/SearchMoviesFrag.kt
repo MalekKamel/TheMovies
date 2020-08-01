@@ -5,8 +5,11 @@ import android.view.View
 import androidx.lifecycle.Observer
 import com.movies.app.R
 import com.movies.app.ui.home.adapter.MoviesAdapter
+import com.sha.bulletin.dialog.LoadingDialog
+import kotlinx.android.synthetic.main.frag_movies_discover.*
 import kotlinx.android.synthetic.main.frag_movies_discover.rv
 import kotlinx.android.synthetic.main.frag_movies_search.*
+import kotlinx.android.synthetic.main.frag_movies_search.swipeRefresh
 import movies.common.core.util.linearLayoutManager
 import movies.common.core.util.textString
 import movies.common.data.model.LoadType
@@ -50,5 +53,14 @@ class SearchMoviesFrag : BaseFrag<SearchMoviesViewModel>() {
             rv.adapter = adapter
             adapter.submitList(it)
         })
+    }
+
+    override fun showLoadingDialog(content: String): LoadingDialog? {
+        swipeRefresh.isRefreshing = true
+        return null
+    }
+
+    override fun dismissLoadingDialogs() {
+        swipeRefresh.isRefreshing = false
     }
 }

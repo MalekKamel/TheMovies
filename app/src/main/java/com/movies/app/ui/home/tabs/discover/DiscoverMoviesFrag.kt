@@ -3,7 +3,9 @@ package com.movies.app.ui.home.tabs.discover
 import androidx.lifecycle.Observer
 import com.movies.app.R
 import com.movies.app.ui.home.adapter.MoviesAdapter
+import com.sha.bulletin.dialog.LoadingDialog
 import kotlinx.android.synthetic.main.frag_movies_discover.*
+import kotlinx.android.synthetic.main.frag_movies_discover.rv
 import movies.common.core.util.linearLayoutManager
 import movies.common.data.model.MoviesRequest
 import movies.common.presentation.ui.frag.BaseFrag
@@ -35,4 +37,12 @@ class DiscoverMoviesFrag : BaseFrag<DiscoverMoviesViewModel>() {
         })
     }
 
+    override fun showLoadingDialog(content: String): LoadingDialog? {
+        swipeRefresh.isRefreshing = true
+        return null
+    }
+
+    override fun dismissLoadingDialogs() {
+        swipeRefresh.isRefreshing = false
+    }
 }
