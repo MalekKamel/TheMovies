@@ -42,6 +42,5 @@ class MoviesAdapter(baseView: ViewInterface) : BasePagedListAdapter<Movie>(
                     url = item.poster()
             )
         }
-
     }
 }
