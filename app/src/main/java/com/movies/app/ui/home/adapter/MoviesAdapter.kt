@@ -10,7 +10,6 @@ import movies.common.presentation.ui.adapter.BasePagedListAdapter
 import movies.common.presentation.ui.adapter.BaseViewHolder
 import movies.common.presentation.ui.view.ViewInterface
 
-
 /**
  * Created by Sha on 4/20/17.
  */
@@ -39,7 +38,7 @@ class MoviesAdapter(baseView: ViewInterface) : BasePagedListAdapter<Movie>(
             itemView.tvReleaseDate.text = item.releaseDate
             itemView.tvOverview.text = item.overview
             PicassoUtil.load(
-                    iv =itemView.ivPoster,
+                    iv = itemView.ivPoster,
                     url = item.poster()
             )
         }
