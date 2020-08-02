@@ -6,7 +6,7 @@ TheMovies app represents a real world app example: it provides a fairly complex 
 
  ## Modular Architecture
  
- <img src="https://github.com/ShabanKamell/TheMovies/blob/master/blob/modular-arch-diagram2.png" height="600">
+ <img src="https://github.com/ShabanKamell/TheMovies/blob/master/blob/modular-arch-diagram3.png" height="600">
  
  The app modules are divided two main categories:
  
