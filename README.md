@@ -33,7 +33,13 @@ Each module has its own `README.md` file that documents the module.
 - [ ] [Plaid](https://github.com/android/plaid)
 - [ ] [Savepopulation's Movies](https://github.com/savepopulation/movies)
 
- ### License
+
+### 🛡 License
+<details>
+    <summary>
+        Click to reveal License
+    </summary>
+    
 ```
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
