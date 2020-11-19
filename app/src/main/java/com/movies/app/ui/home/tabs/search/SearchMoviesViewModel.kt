@@ -31,9 +31,6 @@ class SearchMoviesViewModel(dataManager: DataManager) : BaseViewModel(dataManage
     fun loadMoviesPaged(request: MoviesRequest, type: LoadType): LiveData<PagedList<Movie>> {
         return Pager.pageKeyed<Int, Movie> {
             loadInitial = { param ->
-                // You may find it weird to pass a fake static key here!
-                // But you should know that the first key must be NULL in the first query in Shopify!!
-                // for this reason we depend on next and set it NULL for the first time
                 loadMovies(request, type) {
                     param.callback.onResult(it, 1, 1)
                 }
