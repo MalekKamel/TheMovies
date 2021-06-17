@@ -33,7 +33,7 @@ object Versions {
     const val sha_coroutineRequester = "0.3.0"
     const val androidx_ViewModelExt = "2.2.0"
 
-    const val room = "2.2.3"
+    const val room = "2.3.0"
     const val androidx_preference = "1.1.1"
 
 }
