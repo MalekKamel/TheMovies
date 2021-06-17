@@ -16,7 +16,7 @@ android {
 }
 
 dependencies {
-    api project(Module.core)
+    api project(AppModule.core)
 
     api Deps.retrofit_adapter
     api Deps.retrofit_converter

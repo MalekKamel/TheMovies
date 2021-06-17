@@ -1,5 +1,5 @@
 
-object Module {
+object AppModule {
     const val app = ":app"
     const val presentation = ":common:presentation"
     const val core = ":common:core"
